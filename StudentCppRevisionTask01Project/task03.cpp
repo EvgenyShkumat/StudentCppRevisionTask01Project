@@ -23,5 +23,7 @@
 */
 
 bool task03(int a, int b, int c) {
-	return false;
+	bool result = (a < b + c && b < a + c && c < b + a ) ? true : false;
+
+	return result;
 }
